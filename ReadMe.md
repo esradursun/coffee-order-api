@@ -1,6 +1,6 @@
 # Coffee Order Api
 - --
-This project provides to create/update/delete/finish order, get orders by an order id, get all orders, create/update/delete products, get product by a product id and get all products with `starbux-coffee-api` service.
+This project provides to create/update/delete/finish order, get orders by an order id, get all orders, create/update/delete products, get product by a product id and get all products.
 
 # Technologies
 - --
@@ -24,16 +24,16 @@ This project provides to create/update/delete/finish order, get orders by an ord
 
 # Run & Build
 - --
-To build and run `starbux-coffee-api` backend service
+To build and run backend service
 ```sh
-$ cd starbux-coffee-api
+$ cd coffee-order-api
 $ mvn clean install
 $ mvn spring-boot:run
 ```
 
-`starbux-coffee:order-api` will be run on `http://{HOST}:8080/v1/order`,
-`starbux-coffee:product-api` will be run on `http://{HOST}:8080/v1/product` requires `ADMIN` role,
-`starbux-coffee:report-api` will be run on `http://{HOST}:8080/v1/report` requires `ADMIN` role,
+`:order-api` will be run on `http://{HOST}:8080/v1/order`,
+`:product-api` will be run on `http://{HOST}:8080/v1/product` requires `ADMIN` role,
+`:report-api` will be run on `http://{HOST}:8080/v1/report` requires `ADMIN` role,
 you can reach the `swagger-ui` via `http://{HOST}:8080/swagger-ui.html` 
 
 * For admin role username: `admin` and password: `password` which is for Basic Authentication
