@@ -1,4 +1,4 @@
-# Bestseller Starbux Coffee Api Assesment  - Esra Dursun 
+# Coffee Order Api
 - --
 This project implemented regarding Bestseller assignment. It provides to create/update/delete/finish order, get orders by an order id, get all orders, create/update/delete products, get product by a product id and get all products with `starbux-coffee-api` service.
 
